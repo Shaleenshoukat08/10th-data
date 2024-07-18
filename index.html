@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punjab Board</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body background="PIC/grey.jpeg">
+  
+  <nav class="navbar fixed-top">
+    <div class="container-fluid">
+      <button class="button-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" >
+        <span class="navbar-toggler-icon" ></span>
+      </button>
+      <div class="offcanvas offcanvas-start " tabindex="-1" id="offcanvasDarkNavbar" >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"><i class="fa-solid fa-bars">&nbsp; &nbsp;</i><h1><strong>ITM</strong></h1>&nbsp;<SUB>(Version 4.4)</SUB></h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa-solid fa-house"></i> &nbsp; &nbsp; <b>Dashboard</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="#"><i class="fa-solid fa-paper-plane"></i> &nbsp; &nbsp; <b>Generate Papers</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#"><i class="fa-solid fa-house"></i> &nbsp; &nbsp; <b>Past Papers</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#"><i class="fa-solid fa-house"></i> &nbsp; &nbsp; <b>Saved Papers</b></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="collegelogo">
+        <img  src="pic/ITM.jpeg" class="PIClogo" />
+      </div>
+    </div>
+  </nav>
+
+  
+
+    
+  <div id="selectwhole">
+    <input type="checkbox"class="checkbox"/>
+    <label class="selectallchap">  Select All Chapters</label>
+    <br>
+ </div>
+
+ <div class="container">
+  <div class="row">
+         
+<div id="chapter">      
+     <div class="col-sx-12 col-sm-12 col-lg-6">
+      <li class="list col-sm-10 ">
+       <input type="checkbox" class="checkbox"/>
+       <label class="chapname">Unit#1: Introduction to Programming</label>
+       <ul>
+        <li class="data col-lg-12">
+          <input type="checkbox" class="content"/>
+          <label class="datacontent">1.1 Programming Environment</label>
+        </li>
+        <li class="data col-lg-10" >
+          <input type="checkbox" class="content"/>
+          <label class="datacontent" >1.2 Programming Basics</label>
+        </li>
+        <li class="data col-lg-10" >
+          <input type="checkbox" class="content"/>
+          <label class="datacontent">1.3 Constants and Variables</label>
+        </li>
+      </ul>
+      </li>
+      </div>
+      <div class="col-sx-12 col-sm-12 col-lg-6">
+      <li class="list col-sm-10 ">
+        <input type="checkbox" class="checkbox"/>
+        <label class="chapname">Unit#2: User Interaction</label>
+        <ul>
+         <li class="data col-lg-10">
+           <input type="checkbox" class="content"/>
+           <label class="datacontent">2.1 Input/ Output (I/O) Functions</label>
+         </li>
+         <li class="data col-lg-10" >
+           <input type="checkbox" class="content"/>
+           <label class="datacontent" >2.2 Operators</label>
+         </li>
+       </ul>
+       </li>
+       </div>
+       <div class="col-sx-12 col-sm-12 col-lg-6">
+      <li class="list col-sm-10">
+        <input type="checkbox" class="checkbox"/>
+        <label class="chapname">Unit#3: Conditional Logic</label>
+        <ul>
+         <li class="data col-lg-10">
+           <input type="checkbox" class="content"/>
+           <label class="datacontent">3.1 Control Statements</label>
+         </li>
+         <li class="data col-lg-10" >
+           <input type="checkbox" class="content"/>
+           <label class="datacontent" >3.2 Selection Statements</label>
+         </li>
+       </ul>
+       </li>
+       </div>
+       <div class="col-sx-12 col-sm-12 col-lg-6">
+       <li class="list col-sm-10">
+        <input type="checkbox" class="checkbox"/>
+        <label class="chapname">Unit#4: Data and Repetition</label>
+        <ul>
+         <li class="data col-lg-10">
+           <input type="checkbox" class="content"/>
+           <label class="datacontent">4.1 Data Structures</label>
+         </li>
+         <li class="data col-lg-10" >
+           <input type="checkbox" class="content"/>
+           <label class="datacontent" >4.2 Loop Structures</label>
+         </li>
+       </ul>
+       </li>
+       </div>
+       <div class="col-sx-12 col-sm-12 col-lg-6">
+       <li class="list col-sm-10">
+        <input type="checkbox" class="checkbox"/>
+        <label class="chapname">Unit#5: Functions</label>
+          <ul>
+           <li class="data col-lg-10">
+           <input type="checkbox" class="content"/>
+           <label class="datacontent">5.1 Functions</label>
+          </li>
+          </ul>
+         </li>
+       </div>
+           <br/>
+         </div> 
+      </div>
+    </div>
+   <a href="...." class="button">NEXT</a>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+ </body>
+</html>
+
+
+
+
+

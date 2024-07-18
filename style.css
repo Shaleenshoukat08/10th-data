@@ -1,0 +1,124 @@
+  .backgroundcolor{
+      background-color: rgb(214, 214, 214);
+      }
+    .navbar {
+        background-color: rgb(11, 139, 139);
+        }
+        .button-toggler{
+            background-color: rgb(11, 139, 139);
+            border:3px solid rgb(32, 32, 32); 
+            border-radius:10px; 
+            padding:10px;
+            height:50px; 
+            width: 60px;
+        }
+        .button-toggler:hover{
+            background-color:  rgba(129, 218, 132, 0.3) ;
+            border:3px solid rgb(250, 250, 250); 
+          
+        }
+        .offcanvas-header{
+            background-color: rgb(26, 78, 60);
+            color: rgb(252, 251, 251);
+        }
+        .offcanvas-header{
+            font-family: serif;
+        }
+        .offcanvas-body{
+            background-color: rgb(24, 165, 125);
+          
+        }
+        
+        .nav-item a {
+            color:rgb(235, 235, 235) ;
+            padding: 20px;
+          }
+        
+        .nav-item a:hover {
+            color:rgb(24, 165, 125) ;
+            background-color: rgb(0, 0, 0);
+            padding: 20px;
+          }
+        
+        .PIClogo{
+            height: 70px;
+            width: 150px;
+        border-radius: 10px;
+        }
+  
+        #selectwhole{
+          margin: 7.5% 0% 0% 9.5%;
+        
+        }
+        .selectallchap{
+          font-size: 16px;
+          font-weight: 600;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+        }  
+        #chapter{
+           color: black;
+           margin: 1% 0% 0% 0%;
+        }
+        .list{
+          background: #373B44;
+           background:black;
+        }
+        .checkbox{
+          width:16px;
+          height:16px;
+          margin-left:-20px;
+        }
+        .chapname{
+          color:white;
+          font-weight:bold;
+          margin-left:5px;
+          margin-top: 2px;
+        }
+        .data{
+          background:none;
+        }
+        .content{
+          width:16px;
+          height:16px;
+          margin-left:-30px;
+        }
+        .datacontent{
+          color:white;
+          margin-left:5px;
+          font-weight:normal;
+        } 
+     .button{
+          border: 2px solid rgb(92, 89, 89);
+          color: rgb(0, 0, 0);
+          padding: 7px 40px;
+          text-align: center;
+          text-decoration: none;
+          font-weight: 600;
+          font-size: 16px;
+          border-radius: 10px;
+          margin-left: 7.5%;        
+        }
+        .button:hover{
+          background-color: rgb(138, 94, 179);
+          color: white;
+   
+        }
+        @media only screen and (max-width: 800px) and (min-width: 400px) {
+            #selectwhole{
+                margin: 21% 0% 0% 7.5%;
+              
+              }
+              .button{
+                margin:0% 0% 0% 6%;  
+              }
+        }
+        @media screen and (max-width: 400px){
+        #selectwhole{
+            margin: 35% 0% 0% 9%;
+          
+          }
+          .button{
+            margin:0% 0% 0% 9%;  
+          }
+
+        }
